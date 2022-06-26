@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Quickstart from './quickstart.js'; 
+import ContinuousSlider from './slider.js'; 
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Quickstart />
+    <ContinuousSlider />
   </React.StrictMode>
 );
 
